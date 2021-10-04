@@ -34,8 +34,11 @@ Rows represent a mineral and location combination.
 
 ```{r inspect-other-dataframes}
 glimpse(density)
+variable.names(density)
+variable.names(solubility_hardness)
 glimpse(solubility_hardness)
 glimpse(location_descriptions)
+variable.names(location_descriptions)
 ```
 There are `r nrow(density)` rows and `r ncol(density)` variables in the density dataframe.
 
