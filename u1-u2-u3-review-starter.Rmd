@@ -27,6 +27,8 @@ glimpse(sites)
 ```
 There are `r nrow(sites)` rows and `r ncol(sites)` variables.
 
+Rows represent observations in the dataset.
+
 ### Exercise 2
 
 Remove this text, and add your answer for Exercise 2 here.
