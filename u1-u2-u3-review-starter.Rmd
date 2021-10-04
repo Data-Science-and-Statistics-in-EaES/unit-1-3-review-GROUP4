@@ -37,7 +37,11 @@ glimpse(density)
 glimpse(solubility_hardness)
 glimpse(location_descriptions)
 ```
+There are `r nrow(density)` rows and `r ncol(density)` variables in the density dataframe.
 
+There are `r nrow(solubility_hardness)` rows and `r ncol(solubility_hardness)` variables in the solubility hardness dataframe.
+
+There are `r nrow(location_descriptions)` and `r ncol(location_descriptions)` variables in the location_descriptions dataframe.
 
 ### Exercise 3
 
