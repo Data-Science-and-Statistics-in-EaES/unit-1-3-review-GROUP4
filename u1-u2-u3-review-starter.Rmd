@@ -52,6 +52,9 @@ In the density and solubility_hardness datasets, the rows are Quartz, Feldspar, 
 
 ```{r join-mineral-properties}
 sand_mineral_density <- left_join(sand_minerals, density)
+
+sand_mineral_density %>%
+  left_join(solubility_hardness)
 ```
 There are `r nrow(sand_mineral_density)` rows in the sand_mineral_density dataset and `r nrow(sand_minerals)` rows in the sand_minerals dataset. They have the same number of rows. 
 
