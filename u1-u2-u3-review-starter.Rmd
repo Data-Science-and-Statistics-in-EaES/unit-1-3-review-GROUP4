@@ -27,7 +27,7 @@ glimpse(sand_minerals)
 ```
 There are `r nrow(sand_minerals)` rows and `r ncol(sand_minerals)` variables.
 
-Rows represent observations in the dataset.
+Rows represent a mineral and location combination.
 
 ### Exercise 2
 
