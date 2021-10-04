@@ -51,7 +51,7 @@ In the density and solubility_hardness datasets, the rows are Quartz, Feldspar, 
 ### Exercise 3
 
 ```{r join-mineral-properties}
-
+left_join(sand_minerals, density)
 ```
 
 
