@@ -24,6 +24,7 @@ solubility_hardness <- read_csv("data/solubility-hardness.csv")
 
 ```{r inspect-sand-minerals}
 glimpse(sand_minerals)
+names(sand_minerals)
 ```
 There are `r nrow(sand_minerals)` rows and `r ncol(sand_minerals)` variables.
 
