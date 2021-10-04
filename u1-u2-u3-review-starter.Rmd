@@ -43,6 +43,8 @@ There are `r nrow(solubility_hardness)` rows and `r ncol(solubility_hardness)` v
 
 There are `r nrow(location_descriptions)` and `r ncol(location_descriptions)` variables in the location_descriptions dataframe.
 
+In the density and solubility_hardness datasets, the rows are Quartz, Feldspar, and Biotite. In the location_description dataset, the rows are numbered 1-10 for the different locations.
+
 ### Exercise 3
 
 Remove this text, and add your answer for Exercise 3 here.
