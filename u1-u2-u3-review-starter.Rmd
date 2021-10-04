@@ -33,7 +33,9 @@ Rows represent a mineral and location combination.
 ### Exercise 2
 
 ```{r inspect-other-dataframes}
-
+glimpse(density)
+glimpse(solubility_hardness)
+glimpse(location_descriptions)
 ```
 
 
