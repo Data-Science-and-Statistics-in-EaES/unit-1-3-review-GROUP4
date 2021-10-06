@@ -107,9 +107,16 @@ sand_mineral_properties %>%
   mutate(density_1000 = density / 1000)
 ```
 
-```{r}
+```{r mean-density}
 sand_mineral_properties %>%
   summarize(density_mean = mean(density))
+```
+
+```{r density-by-location}
+sand_mineral_properties %>%
+   group_by(location) %>%
+  summarize(density_by_location = mean(density))
+ 
 ```
 
 
