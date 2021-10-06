@@ -96,6 +96,11 @@ sand_mineral_properties %>%
 sand_mineral_properties %>%
 distinct(density)
 ```
+```{r count-minerals}
+sand_mineral_properties %>%
+  count(minerals)
+
+```
 
 
 ### Exercise 6
