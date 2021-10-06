@@ -124,7 +124,7 @@ sand_mineral_properties %>%
 
 ```{r sand-pivot}
 sand_minerals %>% 
-  pivot_wider()
-
+  pivot_wider() %>%
+  pivot_longer(2)
 ```
 
