@@ -139,7 +139,8 @@ cchjh
 ```{r starwars-heights}
 ggplot(starwars, aes(x = height, fill = species)) +
   geom_histogram() + 
-  labs(title = "How Many Characters Per Each Height Measurement", x = "Height", y = "Count", fill = "Species")
+  labs(title = "How Many Characters Per Each Height Measurement", x = "Height", y = "Count", fill = "Species") +
+  facet_wrap(. ~species)
 
 ```
 
