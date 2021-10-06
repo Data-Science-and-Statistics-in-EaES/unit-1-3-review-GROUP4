@@ -135,8 +135,9 @@ sand_mineral_density %>%
 ```
 
 ### Exercise 7
-
+cchjh 
 ```{r starwars-heights}
   ggplot(starwars)
+
 ```
 
