@@ -96,10 +96,15 @@ sand_mineral_properties %>%
 sand_mineral_properties %>%
 distinct(density)
 ```
+
 ```{r count-minerals}
 sand_mineral_properties %>%
   count(minerals)
+```
 
+```{r create-density-1000}
+sand_mineral_properties %>%
+  mutate(density_1000 = density / 1000)
 ```
 
 
