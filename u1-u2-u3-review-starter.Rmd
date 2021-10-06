@@ -128,9 +128,10 @@ sand_minerals %>%
   pivot_longer(2)
 ```
 
-```{r}
+```{r minerals-density}
 sand_mineral_density %>%
   pivot_wider(names_from = minerals,
               values_from = density)
 ```
 
+### Exercise 7
