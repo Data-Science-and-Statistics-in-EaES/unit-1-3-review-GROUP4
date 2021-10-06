@@ -138,7 +138,8 @@ sand_mineral_density %>%
 cchjh 
 ```{r starwars-heights}
 ggplot(starwars, aes(x = height)) +
-  geom_histogram()
+  geom_histogram() + 
+  labs(title = "How Many Characters Per Each Height Measurement", x = "Height", y = "Count")
 
 ```
 
