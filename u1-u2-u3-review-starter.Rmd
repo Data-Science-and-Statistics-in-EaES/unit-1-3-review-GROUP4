@@ -64,16 +64,23 @@ There are `r nrow(sand_mineral_density)` rows in the sand_mineral_density datase
 sand_mineral_properties %>%
 count(location)
 ```
+
 ```{r bottom-ten-rows-of-sand-per-location}
 sand_mineral_properties %>%
 slice(14:23)
 
 ```
+
 ```{r sand-grains-density}
 sand_mineral_properties %>% 
   arrange(desc(density)) %>% 
   slice(14:23)
+```
 
+```{r first-and-last-columns}
+sand_mineral_properties %>% 
+  select(location, hardness) %>%
+  slice(19:23)
 ```
 
 ### Exercise 5
